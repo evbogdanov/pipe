@@ -1,0 +1,10 @@
+{application, pipe, [
+	{description, "Rip-off of Elixir pipe operator"},
+	{vsn, "0.1"},
+	{registered, []},
+	{applications, [
+		kernel,
+		stdlib
+	]},
+	{env, []}
+]}.
