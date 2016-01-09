@@ -32,7 +32,7 @@ X = [1,
      '|>',
      fun(X) -> X + 1 end,
      fun(X) -> X * 2 end,
-     fun(X) -> X / 3 end],
+     fun(X) -> X / 3 end].
 ```
 
 ## Building

@@ -1,10 +1,7 @@
-.PHONY: compile run test
+.PHONY: compile test
 
 compile:
 	rebar compile
-
-run:
-	erl -env ERL_LIBS `pwd` +pc unicode
 
 test:
 	rebar eunit
